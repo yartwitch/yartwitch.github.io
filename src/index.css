@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #272A33;
+  color: whitesmoke;
+  height: 100%; width: 100%; margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hl {
+  color: #FF5B30;
+}
+
+
+.nav-item .nav-link {
+  color: #fff;
+}
+
+.nav-item .nav-link.disabled {
+  color: #6c757d;
+}
+
+.nav-item .nav-link.active {
+  background-color: #FF5B30;
+}
+
+.mark-empty table tr td:empty
+{
+  background-color: #3d454c;
 }
